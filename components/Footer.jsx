@@ -9,6 +9,7 @@ export default function Footer() {
           href="http://github.com/hamza-student"
           className="footer__link"
           target="_blank"
+          rel="noreferrer"
         >
           See my github
         </a>

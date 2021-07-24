@@ -14,6 +14,7 @@ export default function Nav() {
               className="nav__logo-img"
               width={logoSize}
               height={logoSize}
+              alt='Logo'
             />
             <span className="nav__logo-text">Transform Simply</span>
           </div>
@@ -21,6 +22,7 @@ export default function Nav() {
             className="nav__link"
             href="http://hamza-portfolio-site.netlify.app"
             target="_blank"
+            rel="noreferrer"
           >
             About Author
           </a>
