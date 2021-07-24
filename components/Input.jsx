@@ -7,7 +7,7 @@ export default function Input({ label, id, ...rest }) {
         {label}
       </label>
       <input type="range" id={id} className="input__range" {...rest} />
-      <input type="text" className="input__box" />
+      <input type="number" className="input__box" {...rest} />
 
       <style jsx>{`
         .input {
@@ -30,7 +30,7 @@ export default function Input({ label, id, ...rest }) {
           width: 100%;
         }
         .input__box {
-          width: 6ch;
+          width: 10ch;
           padding: 0.25em 0.5em;
           border: 2px solid ${primaryColorLight};
           outline: none;

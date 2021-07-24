@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import MainHead from '../components/MainHead'
 import Nav from '../components/Nav'
 import Main from '../components/Main'
