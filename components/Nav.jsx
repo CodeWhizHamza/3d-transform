@@ -6,7 +6,7 @@ export default function Nav() {
 
   return (
     <>
-      <div className="container">
+      <div className="nav__container">
         <nav className="nav">
           <div title="Simple 3D transform" className="nav__logo">
             <Image
@@ -14,7 +14,7 @@ export default function Nav() {
               className="nav__logo-img"
               width={logoSize}
               height={logoSize}
-              alt='Logo'
+              alt="Logo"
             />
             <span className="nav__logo-text">Transform Simply</span>
           </div>
@@ -29,7 +29,7 @@ export default function Nav() {
         </nav>
       </div>
       <style jsx>{`
-        .container {
+        .nav__container {
           width: 100%;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }

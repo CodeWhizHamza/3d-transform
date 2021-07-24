@@ -2,7 +2,7 @@ import { primaryColor, primaryColorLight } from '../config/config'
 
 export default function Footer() {
   return (
-    <div className="container">
+    <div className="footer__container">
       <footer className="footer">
         <p className="footer__copyright">Copyright &copy; Hamza 2021</p>
         <a
@@ -17,7 +17,7 @@ export default function Footer() {
 
       <style jsx>
         {`
-          .container {
+          .footer__container {
             background-color: ${primaryColor};
             color: #fff;
           }
