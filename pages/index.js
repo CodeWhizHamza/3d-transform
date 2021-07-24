@@ -1,6 +1,7 @@
 import MainHead from '../components/MainHead'
 import Nav from '../components/Nav'
 import Main from '../components/Main'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <MainHead />
       <Nav />
       <Main />
+      <Footer />
     </>
   )
 }
